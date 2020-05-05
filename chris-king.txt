@@ -43,23 +43,50 @@ https://codepen.io/Cking3/pen/KKdZGpB?editors=1100
     - An id would be used for a situation where you only needed to target one element and keep it styled without changes.
       A class would be used for a situation where you might want to change many elements, and possibly change them later.
     20. How do we select classes in CSS?
+    - With a .
     21. How do we select a p element with a single class of “human””?
+    p.human{
+
+    }
     22. What is a parent child selector? When would this be useful? 
+    - It selects all elements that are a child of the specified element. This might be useful when you need to make the 
+     same change to many different elements.
     23. How do you select all links within a div with the class of sidebar?
+    - a.sidebar{}
     24. What is a pseudo selector?
+    - It is a selector that selects elements in a specific special state. 
     25. What do we use the change the spacing between lines?
+    - The line-height property
     26. What do we use to change the spacing between letters?
+    - The letter-spacing property
     27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
+    - The transform property
     28. How do I add a 1px border around my div that is dotted and black?
+    - border: 1px dotted black;
     29. How do I select everything on the page? 
+    - With the * selector.
     30. How do I write a comment in CSS?
+    - /* Like this */
     31. How do I find out what file I am in, when I am using the command line? 
+    - By using the pwd command.
     32. Using the command line - how do I see a list of files/folders in my current folder?
+    - By using the ls command
     33. How do I remove a file via the command line? Why do I have to be careful with this? 
+    - By using the rm command. There are no warnings and it will be permanently deleted.
     34. Why should I use version control? 
+    - Because it keeps work seperate until it can be approved by some admin. Your changes wont break the current code.
     35. How often should I commit to github?
+    - As often as you can. At least every 20 minutes.
     36. What is the command we would use to push our repo up to github? 
+    - git push -u origin branch-name
     37. Walk me through Lambda's git flow. 
+    - You start by forking the project on github. You then add your TL as a collaborator and
+      clone the project from your forked version. In terminal, you use git clone to create a 
+      local directory. You use git checkout -b 'firstname-lastname' to create a branch to work on.
+      As you work, you use git add to add the changes you make, git commit every 20 minutes to save
+      your work, and git push -u origin branch-name when you are ready to make the change.
+      You then create a pull request on github from your specific branch and add your TL
+      as a reviewer.
 
 Stretch Questions
 
