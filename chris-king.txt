@@ -11,19 +11,37 @@ https://codepen.io/Cking3/pen/KKdZGpB?editors=1100
     5. Name two tags that have required attributes
     - <input> and <select>
     6. What do we put in the head of our HTML document? 
+    - All of our metadata - document title, external sheets, etc
     7. What is an id? 
+    - An id is an attribute thats provides a unique id for an html element.
     8. What elements can I add an id to? 
+    - Any html element.
     9. How many times can I use the same id on a page? 
+    - Only once.
     10. What is a class? 
+    - A class is also a form of id for an html element.
     11. What elements can I add a class to? 
+    - Any.
     12. How many times can I use the same class on a page? 
+    - As many times as needed.
     13. How do I get my link to open in a new tab?
+    - By using the target=_blank attribute in an anchor tag.
     14. What is the alt attribute in the image tag used for? 
+    - Provides a description of the image in case it doesnt load, and for screen readers.
     15. How do I reference an id?
+    - By using a # symbol
     16. What is the difference between a section and a div
+    - The section tag is used to group like content together as it relates to a single theme.
+        A div does not convey any specific meaning, but is used to group together any content the dev wants.
     17. What is CSS used for? 
+    - CSS is used to style webpages and layout presentation.
     18. How to we select an element? Example - every h2 on the page
+    - h2{
+
+    }
     19. What is the difference between a class and an id? - Give me an example of when I might use each one
+    - An id would be used for a situation where you only needed to target one element and keep it styled without changes.
+      A class would be used for a situation where you might want to change many elements, and possibly change them later.
     20. How do we select classes in CSS?
     21. How do we select a p element with a single class of “human””?
     22. What is a parent child selector? When would this be useful? 
